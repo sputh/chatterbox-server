@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <!--link rel="stylesheet" href="styles/styles.css"-->
+
+    <!-- dependencies -->
+    <link rel="stylesheet" href="bower_components/jquery.avgrund/style/avgrund.css">
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="bower_components/jquery.avgrund/jquery.avgrund.min.js"></script>
+    <link rel ="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+
+    <!-- your scripts -->
+    <script src="scripts/svgwrapper.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>chatterbox</h1>
+      <form class='userInput'>
+      <h3>Room</h3>
+        <input id='room'></textarea>
+        <br>
+        <h3>Message</h3>
+        <textarea id='text'></textarea>
+        <button id='send'>Send<button>
+      </form>
+    <script> app.init();
+    </script>
+      <!-- <table><tbody class="tbody"></tbody></table> -->
+    </div>
+  </body>
+  <script src="scripts/bubbles.js"></script>
+  <script src="scripts/avgrundWindow.js"></script>
+
+</html>
